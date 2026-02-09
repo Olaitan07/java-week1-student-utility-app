@@ -1,4 +1,5 @@
 **Title** : Student Utility App 
+
 **Brief Description**: The Student Utility App is a simple menu-driven Java console program designed for beginners.
 It allows users to perform basic operations such as:
 Adding two numbers
@@ -7,7 +8,10 @@ Printing numbers from 1 to N
 Displaying days of the week
 Exiting the program
 The application uses Scanner for user input and demonstrates concepts like methods, if-else, switch, loops, and return types.
+
 **How to Run the Program**: Java jdk installed then click the play button at the top right corner to run the programme 
+
+
 **Sample Output** 
 ==== Student utility app ====
 1. Add two numbers
@@ -24,5 +28,6 @@ Enter a number: 5
 3
 4
 5
+
 **Author Name**
 Lukman Olabanjo
