@@ -70,15 +70,17 @@ public class Main {
     }
     // option3
     //Option 3: Print numbers from 1 to N
-    public static boolean printNumbersFrom1ToN() {
+    public static int printNumbersFrom1ToN() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         // use for loop to print numbers from 1 to n
         for (int i = 1; i <= n; i++) {
             System.out.println(i);
+
         }
-        return true;
+        return n;
+
     }
     //option 4
     //Option 4: Display days of the week
