@@ -24,11 +24,11 @@ public class Main {
         } else if (choice == 2) {
             System.out.println(evenOrOdd());
         } else if (choice == 3) {
-            System.out.println(printNumbersFrom1ToN());
+            printNumbersFrom1ToN();
         } else if (choice == 4) {
-            System.out.println(displayDaysOfTheWeek());
+           displayDaysOfTheWeek();
         } else if (choice == 5) {
-            System.out.println(exit());
+            exit();
         } else {
             System.out.println("invalid choice");
         }
@@ -70,7 +70,7 @@ public class Main {
     }
     // option3
     //Option 3: Print numbers from 1 to N
-    public static int printNumbersFrom1ToN() {
+    public static void printNumbersFrom1ToN() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
@@ -79,12 +79,12 @@ public class Main {
             System.out.println(i);
 
         }
-        return n;
+
 
     }
     //option 4
     //Option 4: Display days of the week
-    public static boolean displayDaysOfTheWeek() {
+    public static void displayDaysOfTheWeek() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number (1-7): ");
         int day = sc.nextInt();
@@ -115,13 +115,13 @@ public class Main {
                 System.out.println("Invalid day.");
 
         }
-        return true;
+
     }
         // option 5
         //Option 5: Exit
-        public static boolean exit () {
+        public static void exit () {
             System.out.println("Thank you for using the app");
-            return true;
+
 
         }
 
